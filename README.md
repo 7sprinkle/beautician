@@ -33,7 +33,7 @@ https://docs.google.com/spreadsheets/d/1qa82WMHYfYGKKCtZUQmnM2DWVXVe2Y2cy9C19Rj_
 # ワイヤーフレーム
 ***
 https://app.diagrams.net/#G1mOo_6UuTc2JMXBdwV-n4FyTkOW0DgiLk
-<img width="627" alt="スクリーンショット 2021-10-09 14 22 50" src="https://user-images.githubusercontent.com/76718149/136645262-9aa48b32-01a8-49c6-a33e-1adf445596e7.png">
+<img width="841" alt="スクリーンショット 2021-10-13 13 38 41" src="https://user-images.githubusercontent.com/76718149/137068441-08920771-7b7f-4b78-8cab-d65cc0d54552.png">
 
 
 ![beautician_std](https://user-images.githubusercontent.com/76718149/136399768-cc617476-2370-4c35-a198-a84a73d0818c.png)
