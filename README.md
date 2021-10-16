@@ -18,7 +18,7 @@
 ***
  ```
  $ git clone git@github.com:7sprinkle/beautician.git
- $ cd continue
+ $ cd beautician
  $ bundle install
  $ rails db:create && rails db:migrate
  $ rails s
