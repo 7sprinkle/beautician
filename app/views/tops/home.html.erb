@@ -1,0 +1,12 @@
+<% if user_signed_in? %>
+  <%= link_to "サインアウト", destroy_user_session_path, method: :delete %>
+<% end %>
+<p>このページは仮のトップページです。</p>
+<% unless user_signed_in? %>
+  <ul class="top_link">
+    <li><%= link_to "ログイン", new_user_session_path, class:"btn btn-warning" %></li><br>
+    <li><%= link_to "ユーザー登録", new_user_registration_path, class:"btn btn-warning" %></li><br>
+    <li><%= 'ゲストログイン'%></li><br>
+    <li><%= '管理者ゲストログイン'%></li><br>
+  </ul>
+<% end %>

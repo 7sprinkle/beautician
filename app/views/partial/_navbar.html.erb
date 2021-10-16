@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container">
+    <%= link_to "", root_path, class: "navbar__brand navbar__mainLogo" %>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-md-auto align-items-center">
+        <li>
+          <%= link_to "検索", "#", class: "btn btn-primary" %>
+        </li>
+        <li>
+          <%= link_to "マイページ", "#", class: "btn btn-primary" %>
+        </li>
+        <li>
+          <%= link_to "top", "#", class: "btn btn-primary" %>
+        </li>
+        <li>
+          <%= link_to "ログアウト", "#", class: "btn btn-primary" %>
+        </li>
+        <li>
+          <%= link_to "", "#", class: "nav-link commonNavIcon profile-icon" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
