@@ -1,5 +1,5 @@
 <% if user_signed_in? %>
-  <%= link_to "サインアウト", destroy_user_session_path, method: :delete %>
+  <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
 <% end %>
 <p>このページは仮のトップページです。</p>
 <% unless user_signed_in? %>
@@ -9,4 +9,8 @@
     <li><%= 'ゲストログイン'%></li><br>
     <li><%= '管理者ゲストログイン'%></li><br>
   </ul>
+<% end %>
+
+<% if user_signed_in? %>
+  <%= link_to "投稿一覧", posts_path %>
 <% end %>
