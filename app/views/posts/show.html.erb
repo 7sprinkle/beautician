@@ -15,5 +15,12 @@
   <%= image_tag @post.image.url %>
 </p>
 
+<p>コメント一覧</p>
+<div id="comments_area">
+  <%= render partial: 'comments/index', locals: { comments: @comments, blog: @blog } %>
+</div>
+
+<%= render partial: 'comments/form', locals: { comment: @comment, blog: @blog } %>
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
 <%= link_to 'Back', posts_path %>
